@@ -15,7 +15,8 @@ while (lt >= t):
     elif (c > s):
         print("Quase! tente um menor")
     elif (c < s):
-        print("Quase! tente um menor")    
+        print("Quase! tente um maio
+        r")    
 
 
     t = t + 1
