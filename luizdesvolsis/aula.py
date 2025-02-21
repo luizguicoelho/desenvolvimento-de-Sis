@@ -12,6 +12,7 @@ while (lt >= t):
     c = int(input("Qual é o número?:" ))
     if (c == s):
         print("Parabéns, você acertou!")
+        break #termina o jogo se o usuário acertar
     elif (c > s):
         print("Quase! tente um menor")
     elif (c < s):
