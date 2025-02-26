@@ -1,11 +1,11 @@
 import random
 
+
 s = random.randint(1,10)
 
 print("#### BEM VINDO AO JOGO ####")
 print("Adivinhe o número de 1 a 10")
 
-lt = 3
 t = 1
 while (lt >= t):
     print("tentativa", t)
