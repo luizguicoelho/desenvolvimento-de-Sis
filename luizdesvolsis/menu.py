@@ -10,15 +10,16 @@ if (n_d == 1):
     lt = 3
 elif (n_d == 2):
     n_m = 50
-    lt = 6
+    lt = 5
     print("você escolheu a dificuldade Média")
 
 elif (n_d == 3):
     n_m = 100
-    lt = 8
+    lt = 7
     print("você escolheu a dificuldade Díficil")
-#elif (n_d >= 4):
-#break
+elif (n_d >= 4):
+    print("você escolheu uma dificuldade inválida")
+    exit()
 
 s = random.randint(1, n_m)
 print("#### BEM VINDO AO JOGO ####")
