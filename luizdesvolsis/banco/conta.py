@@ -22,12 +22,12 @@ class Conta:
         return self.__titular
 
     @property
-    def saldo(self):
-        return self.__saldo
-
-    @property
     def senha(self):
-        return self.__saldo
+        return self.__senha
+
+    @senha.setter
+    def senha(self, newSenha):
+        self.__senha = newSenha
 
     def sacar(self, valor):
         if valor < 0 or valor > self.__saldo:

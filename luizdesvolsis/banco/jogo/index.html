@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Ping Pong</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="gameContainer">
+        <div id="leftPaddle" class="paddle"></div>
+        <div id="rightPaddle" class="paddle"></div>
+        <div id="ball"></div>
+        <div id="score">Pontos: 0 - 0</div>
+        <div id="difficulty">
+            <button onclick="startGame(1)">Fácil</button>
+            <button onclick="startGame(2)">Médio</button>
+            <button onclick="startGame(3)">Difícil</button>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
